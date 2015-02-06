@@ -1,5 +1,5 @@
-(ns tags
-  :require-macros [macro :refer [defnode]])
+(ns hoplite-doc.tags
+  :require [hoplite-doc.macro :refer [defnode]])
 
 (defn api [& sections]
   {:type :api :children sections})
