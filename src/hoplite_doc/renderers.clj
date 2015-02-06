@@ -1,4 +1,4 @@
-(ns renderers
+(ns hoplite-doc.renderers
   (:require [clojure.zip :as z]))
 
 (defn api-zipper [tree]
