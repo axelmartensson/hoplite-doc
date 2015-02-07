@@ -1,5 +1,6 @@
 (ns hoplite-doc.tags
-  :require [hoplite-doc.macro :refer [defnode]])
+  (:require 
+    [tailrecursion.hoplon :refer :all]))
 
 (defn api [& sections]
   {:type :api :children sections})
